@@ -53,6 +53,6 @@ lat_long_prcp %>%
              axis.text = element_blank())
 
 
-ggsave("figures/world_drought.png",
+ggsave("visuals/world_drought.png",
         width = 8, 
         height = 4)
