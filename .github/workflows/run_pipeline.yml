@@ -17,6 +17,6 @@ jobs:
           ls 
       - name: Get working directory
         run: |
-          pwd:
+          pwd
       - run: echo "🍏 This job's status is ${{ job.status }}."
       
